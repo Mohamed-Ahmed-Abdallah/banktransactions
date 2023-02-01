@@ -1,0 +1,162 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: lightblue;
+    margin: 30px
+}
+
+a.logout {
+    background-color: red;
+    display: block;
+    width: fit-content;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px 0px 0px 94.7%;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    background-color: lightgreen;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input {
+    border: 1px solid black;
+    outline: none;
+    display: inline-block;
+    padding: 5px 10px;
+    color: black;
+}
+
+input[type='submit'] {
+    cursor: pointer;
+}
+
+/* login form */
+
+.login-form {
+    margin: 11% 38%;
+}
+
+.login-form table {
+    background-color: lightgreen;
+    padding: 0px 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.login-form table td {
+    text-align: center;
+}
+
+/* transactions page */
+
+ul {
+    margin-bottom: 100px;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+div {
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a.back {
+    background-color: red;
+    display: block;
+    width: fit-content;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.transaction-insert-table {
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.transaction-insert-table td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.transaction-insert-table td input[type='submit'] {
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+
+.transaction-show-table {
+    background-color: lightcoral;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.transaction-show-table td {
+    color: black;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.transaction-show-table td a {
+    background-color: red;
+    display: block;
+    width: 60%;
+    margin: auto;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 6px 0px;
+    border-radius: 20px;
+}
+
+.no-transaction {
+    background-color: lightcoral;
+    width: fit-content;
+    padding: 5px;
+}
+
+.go-up {
+
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    background-color: green;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
